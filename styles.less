@@ -1,0 +1,136 @@
+@color_1: #9b59b6;
+@font_family_1: 'open sans';
+@font_family_2: 'Pacifico', cursive;
+
+html {
+	height: 100%;
+}
+.row {
+	margin: auto !important;
+}
+body {
+	background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+	padding: 0;
+	text-align: center;
+	font-family: @font_family_1;
+	position: relative;
+	margin: 0;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+.wrapper {
+	height: 100% !important;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	width: 100%;
+	float: left;
+}
+h2 {
+	width: 100%;
+	float: left;
+}
+.pointer {
+	color: @color_1;
+	font-family: @font_family_2;
+	font-size: 30px;
+	margin-top: 15px;
+}
+.main {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	section {
+		.page_container {
+			position: relative;
+			margin: 0 auto 0;
+			z-index: 3;
+		}
+		overflow: hidden;
+	}
+	section.page1 {
+		background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+		.header {
+			background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+			border-bottom: 1px solid gray;
+		}
+		.page_container {
+			overflow: hidden;
+			background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+		}
+	}
+	section.page2 {
+		background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+		padding: 35px;
+		.page_container {
+			overflow: hidden;
+			background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+		}
+		.about-us {
+			margin-top: 30px !important;
+			.col-md-4 {
+				padding: 0;
+			}
+		}
+	}
+	section.page3 {
+		background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+		padding: 35px;
+		.page_container {
+			overflow: hidden;
+			background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+		}
+		.row {
+			justify-content: center;
+		}
+		.col-md-1 {
+			background: red;
+			margin: auto 0;
+		}
+		.col-md-2 {
+			p {
+				text-align: center;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+header {
+	position: relative;
+	z-index: 10;
+}
+body.disabled-onepage-scroll {
+	.onepage-wrapper {
+		section {
+			min-height: 100%;
+			height: auto;
+		}
+	}
+	.page1 {
+		min-height: auto !important;
+	}
+}
+.dropdown-menu {
+	top: 116% !important;
+	left: -40px !important;
+}
+.advantage-row {
+	width: 100%;
+	padding-top: 15px;
+	display: flex !important;
+	justify-content: center;
+	.col-md-4 {
+		text-align: center;
+		background: #ffffffad;
+	}
+}
+.action-products {
+	h2 {
+		text-align: center;
+	}
+}

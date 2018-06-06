@@ -1,0 +1,210 @@
+html {
+    height: 100%;
+  }
+  .row{
+    margin: auto !important;
+  }
+  body {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    padding: 0;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    margin: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .wrapper {
+      height: 100% !important;
+      height: 100%;
+      margin: 0 auto; 
+      overflow: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  h1, h2 {
+    width: 100%;
+    float: left;
+  }
+
+  
+  .pointer {
+    color: #9b59b6;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+
+  .main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+    
+  header {
+    position: relative;
+    z-index: 10;
+  }
+  .main section .page_container {
+    position: relative;
+    margin: 0 auto 0;
+
+    z-index: 3;
+  }
+  .main section  {
+    overflow: hidden;
+  }
+  
+  .main section.page1 {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  }
+  .main section.page1 .header{
+      background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+      border-bottom: 1px solid gray;
+  }
+
+  .main section.page1 .page_container{
+    overflow: hidden;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  }
+
+  .main section.page2 {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    padding: 35px;
+  }
+
+  .main section.page2 .page_container {
+    overflow: hidden;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  }
+
+  .main section.page2 .about-us{
+    margin-top: 30px !important;
+  }
+
+  .main section.page2 .about-us .col-md-4{
+    padding: 0;
+  }
+
+  .main section.page3 {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    padding: 35px;
+   }
+  .main section.page3 .page_container {
+    overflow: hidden;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  }
+  .main section.page3 .row{
+    justify-content: center;
+  }
+  .main section.page3 .col-md-1{
+    background: red;
+    margin: auto 0;
+  }
+  .main section.page3 .col-md-2 p{
+    text-align: center;
+    margin-top:10px; 
+  }
+
+  
+  body.disabled-onepage-scroll .onepage-wrapper  section {
+    min-height: 100%;
+    height: auto;
+  }
+  .dropdown-menu{
+    top: 116% !important;
+    left: -40px !important;
+  }
+  .advantage-row{
+    width: 100%;
+    padding-top: 15px;
+
+    display: flex !important;
+    justify-content: center;
+  }
+  .advantage-row .col-md-4{
+    text-align: center;
+    background: #ffffffad;
+  }
+
+  body.disabled-onepage-scroll .page1{
+    min-height: auto !important;
+  }
+  .action-products h2{
+    margin: 20px 15px;
+  }
+  .action-products-wrapper h2{
+    text-align: center;
+  }
+
+
+  /* CONTACT FORM STYLE */
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ffa93e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffa93e;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+  }
+}
+
+/* CONTACT MAP STYLE */
+.map iframe{
+  width: 100%;
+}
+.container{
+  background-color: #f2f2f29e;
+  margin: 5% auto;
+  max-width: 80% !important;
+}
