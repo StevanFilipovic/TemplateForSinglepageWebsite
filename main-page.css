@@ -145,6 +145,7 @@ html {
   }
   .ordering {
     margin: auto;
+    padding: 17%;
     background: #ffffff75;
     border-radius: 50%;
     width: 70%;
@@ -154,7 +155,6 @@ html {
 }
 .ordering img{
   width: 100%;
-  padding: 58px;
 }
 
   /* CONTACT FORM STYLE */
@@ -218,6 +218,15 @@ input[type=submit]:hover {
 }
 .container{
   background-color: #f2f2f29e;
-  margin: 5% auto;
+  margin: 3% auto;
   max-width: 80% !important;
+}
+
+.contact-data h6{
+    font-weight: 300;
+}
+
+.contact-data{
+  text-align: center;
+  margin: 3%;
 }
