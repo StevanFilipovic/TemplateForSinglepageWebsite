@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>One Page Scroll</title>
+	<meta name="title" content="jQuery One Page Scroll by Stevan" />
+	<meta name="description" content="Opis sajta" />
+
+	<link rel="shortcut icon" id="favicon" href=""> 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href='main-page.css' rel='stylesheet' type='text/css'>
+  <!-- Da bi koristili less potrebno je odkomentarisati donje dve linije i uraditi konverziju css-a i ubaciti u dole navedene fajlove -->
+  <!-- <link rel="stylesheet/less" type="text/css" href="onepage-scrool.less" /> -->
+  <!-- <link rel="stylesheet/less" type="text/css" href="styles.less" /> -->
+  <!-- <script src="less.js" type="text/javascript"></script> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="bootstrap-responsive.css" rel="stylesheet">
+
+
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: false
+      });
+		});
+		
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+          <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            </div>
+        <div class="page_container">
+          
+          <!-- <h1>Page1 container</h1> -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+  	    </div>
+
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          <!-- <h1>Page2 container</h1> -->
+          <div class="row advantage-row">
+            <div class="col-md-4 col-xs-12">
+              <h2>Title 1</h2>
+              <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="advantage-image1">
+              <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h2>Title 2</h2>
+              <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="advantage-image2">
+              <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.</p>
+            </div>            
+            <div class="col-md-4 col-xs-12" >
+                <h2>Title 3</h2>
+              <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="advantage-image3">
+              <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.</p>
+            </div>
+          </div>
+          <div class="row about-us">
+            <div class="col-md-4">
+                <img class="d-block w-100" src="http://via.placeholder.com/800x450" alt="advantage-image1">
+            </div>
+            <div class="col-md-8">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.
+                  Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.
+                  Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.
+                  Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.
+    
+                </p>
+            </div>
+          </div>
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+          <!-- <h1>Page3 container</h1> -->
+          <div class="row">
+              <div class="col-md-2 col-xs-12">
+                <div class="ordering">
+                    <img class="d-block " src="img/list.png" alt="advantage-image1">
+                </div>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-md-1 col-xs-12"></div>
+              <div class="col-md-2 col-xs-12">
+                  <div class="ordering">
+                      <img class="d-block " src="img/choose.png" alt="advantage-image1">
+                  </div>
+                <p>Lorem ipsum dolor sit amet.</p>              </div>
+              <div class="col-md-1 col-xs-12"></div>            
+              <div class="col-md-2 col-xs-12" >
+                  <div class="ordering">
+                      <img class="d-block " src="img/mail.png" alt="advantage-image1">
+                  </div>
+                <p>Lorem ipsum dolor sit amet.</p>              </div>
+              <div class="col-md-1 col-xs-12"></div>
+              <div class="col-md-2 col-xs-12" >
+                  <div class="ordering">
+                      <img class="d-block " src="img/delivery.png" alt="advantage-image1">
+                  </div>
+                <p>Lorem ipsum dolor sit amet.</p>              </div>
+              
+            </div>
+
+            <div class="row action-products">
+              <h2>Na akciji od 01.06.2018 - 01.09.2018</h2>
+              <div class="row action-products-wrapper">
+                  <div class="col-md-3 col-xs-12">
+                      <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="advantage-image1">
+                      <h2>Title 1</h2>
+                      <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="advantage-image1">
+                        <h2>Title 2</h2>
+                        <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.</p>
+                      </div>
+                      <div class="col-md-3 col-xs-12">
+                          <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="advantage-image1">
+                          <h2>Title 3</h2>
+                          <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <img class="d-block w-100" src="http://via.placeholder.com/1920x1080" alt="advantage-image1">
+                            <h2>Title 4</h2>
+                            <p>Lorem ipsum dolor sit amet, tation sententiae cu vis, ne his legere cetero. Maluisset accusamus ea est, elit nostro in duo, ea ius amet gloriatur. Qui ut facilis percipit. Nec id mucius perfecto mnesarchum, usu iudico platonem dissentias ea. Sit dolores facilisi ne, id ullum scripta vix.</p>
+                          </div>
+                </div>
+            </div>
+  	      </div>
+  	   
+      </section>
+
+	    <section class="page4">
+	      <div class="page_container">
+
+          <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+              <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1417.3534326341946!2d20.428963572555954!3d44.725593785358306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a722581be032b%3A0x89374e484fb6a96f!2z0InRg9Cx0L7QvNC40YDQsCDQmNCy0LrQvtCy0LjRm9CwINCo0YPRhtC1IDIzLCDQkdC10L7Qs9GA0LDQtA!5e0!3m2!1ssr!2srs!4v1528193110712" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              </div>
+              <div class="col-md-6">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+<div class="contact-data">
+  <h6>Adresa: Ljubomira Ivkovića Šuce br. 23-25 Lokal br. 9, Beograd, Srbija; Radno vreme: 09-13 i 16-20h</h6>
+  <h6>Tel-Fax: +381 (0) 11 2382 283; Mob tel: +381 (0) 66 6877 977 </h6>
+  <h6>E-Mail: stankovicco@yahoo.com  </h6>
+</div>
+          </div>
+
+
+  	    </div>
+      </section>
+
+    </div>
+
+    
+  </div>
+ 
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+
+

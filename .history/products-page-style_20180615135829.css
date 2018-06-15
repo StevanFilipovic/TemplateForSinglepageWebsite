@@ -1,3 +1,58 @@
+html {
+  height: 100%;
+}
+.row{
+  margin: auto !important;
+}
+body {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  padding: 0;
+  text-align: center;
+  font-family: 'open sans';
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+    /* height: 100% !important; */
+    height: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1, h2 {
+  width: 100%;
+  float: left;
+}
+
+
+.pointer {
+  color: #d06000;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+  
+header {
+  position: relative;
+  z-index: 10;
+}
+
 header {
   position: relative;
   z-index: 10;
