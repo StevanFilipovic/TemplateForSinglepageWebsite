@@ -14,6 +14,7 @@
   <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
   <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='main-page.css' rel='stylesheet' type='text/css'>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <!-- Da bi koristili less potrebno je odkomentarisati donje dve linije i uraditi konverziju css-a i ubaciti u dole navedene fajlove -->
   <!-- <link rel="stylesheet/less" type="text/css" href="onepage-scrool.less" /> -->
   <!-- <link rel="stylesheet/less" type="text/css" href="styles.less" /> -->
@@ -33,12 +34,16 @@
       });
     });
   </script>
+  <script>
+  AOS.init({
+  duration: 1200,
+})</script>
 </head>
 
 <body>
   <div class="wrapper">
     <div class="main">
-      <section class="page1">
+      <section class="page1" data-aos="fade-up">
         <div class="header">
           <nav class="navbar navbar-expand-lg navbar-light">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -93,7 +98,7 @@
 
       </section>
 
-      <section class="page2">
+      <section class="page2" data-aos="fade-up">
         <div class="page_container">
           <!-- <h1>Page2 container</h1> -->
           <div class="row advantage-row">
@@ -143,7 +148,7 @@
         </div>
       </section>
 
-      <section class="page3">
+      <section class="page3"data-aos="fade-up">
         <div class="page_container">
           <!-- <h1>Page3 container</h1> -->
           <div class="row ordering-instructions">
@@ -214,7 +219,7 @@
 
       </section>
 
-      <section class="page4">
+      <section class="page4" data-aos="fade-up">
         <div class="page_container">
 
           <div class="container map-container-wrapper">
@@ -263,6 +268,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 
 </body>
